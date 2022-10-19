@@ -36,7 +36,7 @@ function mouseOver() {
 
     function buttonMoveLeft() {
         const button = document.getElementById('submit-btn');
-        button.style.transform = 'translateX(-165%)';
+        button.style.transform = 'translateX(-170%)';
     };
 
     function buttonMoveRight() {
