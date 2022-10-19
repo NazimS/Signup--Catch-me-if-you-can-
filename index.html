@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="register-frame">
+
+        <img src="./img/undraw_pic_profile_re_1865.svg" alt="">
+        <form action="submitted.html" name="suForm" id="supform">
+            <input type="text" placeholder="Full name" id="name" onclick="resetbtn()" minlength="2" maxlength="30">
+            <input type="text" placeholder="Email" id="email" onclick="resetbtn()">
+            <input type="password" placeholder="Password" id="pass" onclick="resetbtn()" minlength="8">
+
+            <div class="labb">
+                <input type="checkbox" name="check1" id="check" onclick="resetbtn()">
+                <label for="check">I agree with the policy and terms</label>
+            </div>
+
+            <input type="submit" id="submit-btn" value="Sign-up" onmouseover="mouseOver()">
+        </form>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
